@@ -10,7 +10,8 @@ NOTE: using C# style logical operator notation
 * ! - NOT
 * | - OR
 * ^ - XOR
-### Annulment Law – 
+
+### Annulment Law –
 
 `A & 0 = 0`    A variable AND’ed with 0 is always equal to 0
 
@@ -28,19 +29,19 @@ NOTE: using C# style logical operator notation
 
 `A & A = A`    A variable AND’ed with itself is always equal to the variable
 
-### Complement Law – 
+### Complement Law –
 
 `A  & !A = 0`    A variable AND’ed with its complement is always equal to 0
 
 `A | !A = 1`    A variable OR’ed with its complement is always equal to 1
 
-### Commutative Law – 
+### Commutative Law –
 
 `A  & B = B & A`    The order in which two variables are AND’ed makes no difference
 
 `A | B = B | A`    The order in which two variables are OR’ed makes no difference
 
-### Double Negation Law – 
+### Double Negation Law –
 
 `!!A = A`     A double complement of a variable is always equal to the variable
 
@@ -50,7 +51,7 @@ NOTE: using C# style logical operator notation
 
 `!(A & B) = !A | !B`
 
-### Distributive Law – 
+### Distributive Law –
 
 `A & (B | C) = A & B | A & C`    (OR Distributive Law)
 
@@ -117,8 +118,6 @@ XOR(A,B) = A & !B | !A & B
 
 ### Hardware Description Language (HDL)
 
-
-
 > *From [Wikipedia](https://en.wikipedia.org/wiki/Hardware_description_language):*
 >
 > *In computer engineering, a **hardware description language** (**HDL**) is a specialized computer language used to describe the structure and behavior of electronic circuits, and most commonly, digital logic circuits.*
@@ -126,7 +125,5 @@ XOR(A,B) = A & !B | !A & B
 > *A hardware description language enables a precise, formal description of an electronic circuit that allows for the automated analysis and simulation of an electronic circuit. It also allows for the synthesis of a HDL description into a netlist (a specification of physical electronic components and how they are connected together), which can then be placed and routed to produce the set of masks used to create an integrated circuit.*
 >
 > *A hardware description language looks much like a programming language such as C; it is a textual description consisting of expressions, statements and control structures. One important difference between most programming languages and HDLs is that HDLs explicitly include the notion of time.*
-
-
 
 ![xor diagram](.\img\xor.jpg) 
