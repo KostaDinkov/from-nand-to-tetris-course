@@ -1,7 +1,6 @@
 
 # Unit 1: Boolean Functions and Gate Logic
 
-
 ## Description of the Laws of Boolean Algebra
 
 NOTE: using C# style logical operator notation

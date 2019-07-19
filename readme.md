@@ -20,3 +20,10 @@ The course homework consists of a series 6 projects:
 **Project 5:** Using the chipset built in projects 1-3 to build a Central Processing Unit (CPU) and a hardware platform capable of executing programs written in the machine language introduced in project 4
 
 **Project 6:** Developing an assembler, i.e. a capability to translate programs written in symbolic machine language into binary, executable code.
+
+## Resources
+
+Official Course Homepage - [link](https://www.nand2tetris.org/)
+Software Tools: [link](https://www.nand2tetris.org/software)
+Coursera part I  - [Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)](https://www.coursera.org/learn/build-a-computer)
+Coursera part II - [Build a Modern Computer from First Principles: Nand to Tetris Part II (project-centered course)](https://www.coursera.org/learn/nand2tetris2)
