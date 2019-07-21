@@ -24,6 +24,9 @@ The course homework consists of a series 6 projects:
 ## Resources
 
 Official Course Homepage - [link](https://www.nand2tetris.org/)
+
 Software Tools: [link](https://www.nand2tetris.org/software)
+
 Coursera part I  - [Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)](https://www.coursera.org/learn/build-a-computer)
+
 Coursera part II - [Build a Modern Computer from First Principles: Nand to Tetris Part II (project-centered course)](https://www.coursera.org/learn/nand2tetris2)
