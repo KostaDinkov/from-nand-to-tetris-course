@@ -125,4 +125,4 @@ XOR(A,B) = A & !B | !A & B
 >
 > *A hardware description language looks much like a programming language such as C; it is a textual description consisting of expressions, statements and control structures. One important difference between most programming languages and HDLs is that HDLs explicitly include the notion of time.*
 
-![xor diagram](.\img\xor.jpg) 
+![xor diagram](img/xor.jpg) 
