@@ -109,3 +109,32 @@ Example -  addition of two negative numbers with buffer overflow:
 
 *From Wikipedia:*
 An arithmetic logic unit (ALU) is a combinational digital electronic circuit that performs arithmetic and bitwise operations on integer binary numbers. This is in contrast to a floating-point unit (FPU), which operates on floating point numbers. An ALU is a fundamental building block of many types of computing circuits, including the central processing unit (CPU) of computers, FPUs, and graphics processing units (GPUs). A single CPU, FPU or GPU may contain multiple ALUs.
+
+### The HACK ALU
+
+The ALU for the HACK computer that we well be building in the course looks as follows:
+
+![HACK_ALU](./img/alu.png)
+
+__*operands*__
+x - input: 16 bit operand
+y - input: 16 bit operand
+
+__*presetting x*__
+zx - input: if 1 then x=0 else x;
+nx - input: if 1 then x=!x else x;
+
+__*presetting y*__
+zy - input: if 1 then y=0 else y;
+ny - input: if 1 then y=!y else y;
+
+__*function select*__
+f  - input: if 1 then out = x+y else out=x&y
+__*post-setting function output*__
+no - input: if 1 then out=!out else out=out
+
+__*output flags*__
+zr - output flag: if 1 then the out is 0 else out out is non zero
+ng - output flag: if 1 then the out is negative number else out is positive
+
+![hack_alu_table](./img/hack_alu_table.png)
