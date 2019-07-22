@@ -118,14 +118,17 @@ The ALU for the HACK computer that we well be building in the course looks as fo
 
 #### operands
 x - input: 16 bit operand
+
 y - input: 16 bit operand
 
 #### presetting x
 zx - input: if 1 then x=0 else x;
+
 nx - input: if 1 then x=!x else x;
 
 #### presetting y
 zy - input: if 1 then y=0 else y;
+
 ny - input: if 1 then y=!y else y;
 
 #### function select
@@ -136,6 +139,7 @@ no - input: if 1 then out=!out else out=out
 
 #### output flags
 zr - output flag: if 1 then the out is 0 else out out is non zero
+
 ng - output flag: if 1 then the out is negative number else out is positive
 
 ![hack_alu_table](./img/hack_alu_table.png)
