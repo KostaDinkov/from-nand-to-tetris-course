@@ -116,24 +116,25 @@ The ALU for the HACK computer that we well be building in the course looks as fo
 
 ![HACK_ALU](./img/alu.png)
 
-__*operands*__
+#### operands
 x - input: 16 bit operand
 y - input: 16 bit operand
 
-__*presetting x*__
+#### presetting x
 zx - input: if 1 then x=0 else x;
 nx - input: if 1 then x=!x else x;
 
-__*presetting y*__
+#### presetting y
 zy - input: if 1 then y=0 else y;
 ny - input: if 1 then y=!y else y;
 
-__*function select*__
+#### function select
 f  - input: if 1 then out = x+y else out=x&y
-__*post-setting function output*__
+
+#### post-setting function output
 no - input: if 1 then out=!out else out=out
 
-__*output flags*__
+#### output flags
 zr - output flag: if 1 then the out is 0 else out out is non zero
 ng - output flag: if 1 then the out is negative number else out is positive
 
