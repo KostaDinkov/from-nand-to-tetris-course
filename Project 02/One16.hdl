@@ -1,0 +1,16 @@
+/**
+ * 16-bit constant function - converts any 16bit number to a 16 bit 1
+ * out =  0000000000000001
+ */
+
+CHIP One16 {
+    IN in[16];
+    OUT out[16];
+
+    PARTS:
+   // Put you code here:
+   
+   And16(a=in, b=false, out[1..15]=out[1..15]);
+   Not(in=false, out=out[0]);
+   
+}

@@ -14,4 +14,8 @@ CHIP Inc16 {
 
     PARTS:
    // Put you code here:
+   One16(in=in, out=one);
+   Add16(a=in, b=one, out=out);
+   
+   
 }
