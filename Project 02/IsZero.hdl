@@ -1,0 +1,13 @@
+CHIP IsZero {
+    IN  
+        in[16];  // 16-bit input        
+
+    OUT 
+        out; // if 1 then x is zero
+       
+    PARTS:
+    Or8Way(in=in[0..7], out=or1);
+    Or8Way(in=in[8..15], out=or2);
+    Or(a=or1, b=or2, out=or3);
+    Not(in=or3, out=out);
+}

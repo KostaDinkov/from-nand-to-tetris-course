@@ -1,0 +1,14 @@
+
+CHIP IsNegative {
+
+IN
+  in[16]; // 16 bit number
+
+OUT
+  out; // 1 if in is negative, 0 otherwise
+
+PARTS:
+  And(a=in[15], b=true, out=out);
+
+}
+
